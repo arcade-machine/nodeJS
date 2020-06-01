@@ -13,7 +13,8 @@ router.get('/', (req, res) => {
   res.render('main', {
     name: "Sergei",
     dog: "No dog :(",
-    randomStatement: req.query.statement
+    randomStatement: req.query.statement,
+    title: "I am node developer"
   });
 });
 

@@ -1,8 +1,4 @@
-p Hello!
+extends layout
 
-h2.hello
-    | Hello, my name is #{name}
-    | and I have #{dog}
-    | and I am #{randomStatement}
-
-img(src="asd" alt=`${dog}`)
+block content
+    h2 U can purchase item #{h.moment().endOf('day').fromNow()}
